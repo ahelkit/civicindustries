@@ -3,8 +3,84 @@
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+body {
+	background-image: url(/img/lightpaperfibers.png);
+	background-size: 500px 300px;
+	font-family: 
+}
 
+h2, 
+h3 {
+	text-transform: uppercase;
+}
 
+h3 {
+	border-bottom: 1px solid #000;
+	width: 300px;
+	margin-bottom: 60px;
+}
+
+h4 {
+	font-weight: normal;
+}
+
+img.logo {
+	max-width: 327px;
+	max-height: 275px;
+	width: 100%;
+	height:100%;
+}
+
+.product {
+	margin-bottom: 50px;
+}
+
+.product p {
+	text-align: center;
+}
+
+.product p {
+	font-size: 21px;
+	line-height: 26px;
+	margin: 30px auto 60px;
+}
+
+.product img.blightLogo,
+.product .screenshot {
+	width: 100%;
+	height: 100%;
+	margin: 0 auto;
+	display: block;
+}
+
+.product img.blightLogo {
+	max-width: 428px;
+	max-height: 72px;
+}
+
+.product .button {
+	background-color: #FC363B;
+	color: #fff;
+	font-size: 24px;
+	padding: 15px 50px;
+	text-transform: uppercase;
+}
+
+.product .button:hover {
+	background-color: #000;
+	color: #fff;
+	text-decoration: none;
+}
+
+.product .screenshot {
+	max-width: 747px;
+	max-height: 299px;
+}
+
+.team h2, 
+.team h4 {
+	text-align: center;
+}
 
 
 
