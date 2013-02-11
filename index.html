@@ -29,12 +29,18 @@
 
         <!-- This code is taken from http://twitter.github.com/bootstrap/examples/hero.html -->
 
-        <div class="navbar sticky-wrapper">
-          <nav>
+        <div class="navbar sticky-wrapper navbar-static-top">
+          <nav class="navbar-inner">
             <div class="container">
-                  <ul class="nav navLogo">
-                    <li><a href="#home" class="textLogo"><img src="/img/civic_industries_text_logo.png" /></a></li>
-                  </ul>
+              <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </a> 
+
+              <ul class="nav navLogo">
+                <li><a href="#home" class="textLogo"><img src="/img/civic_industries_text_logo.png" /></a></li>
+              </ul>
 
               <div class="nav-collapse collapse">
                   <ul class="nav">
@@ -43,7 +49,8 @@
                       <li><a href="#contact">Contact</a></li>
                   </ul>
               </div><!--/.nav-collapse -->
-          </div>
+
+            </div>
           </nav>
         </div>
 
@@ -79,7 +86,7 @@
                 <div class="span12">
                     <h3>Meet the team</h3>
                 </div>
-                <div class="span4">
+                <div class="span4 bio">
                     <img src="/img/alex.png" />
                     <hr class="line" />
                     <h2>Alex Pandel</h2>
@@ -93,7 +100,7 @@
                       <li><a href="http://www.linkedin.com/profile/view?id=109769206&locale=en_US&trk=tyah" target="_blank" ><div class="linkedin"></div></a></li>
                     </ul>
                 </div>
-                <div class="span4"> 
+                <div class="span4 bio"> 
                     <img src="/img/amir.png" />
                     <hr class="line" />
                     <h2>Amir Reavis-Bay</h2>
@@ -107,7 +114,7 @@
                       <li><a href="http://www.linkedin.com/profile/view?id=12594117&locale=en_US&trk=tyah2" target="_blank"><div class="linkedin"></div></a></li>
                     </ul>
                </div>
-                <div class="span4"> 
+                <div class="span4 bio3"> 
                     <img src="/img/eddie.png" />
                     <hr class="line" />
                     <h2>Eddie Tejeda</h2>
