@@ -1,0 +1,469 @@
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+body {
+	background-image: url(/img/lightpaperfibers.png);
+	background-size: 500px 300px;
+	font-family: 'Oswald', sans-serif;
+	padding-top: 0px;
+}
+
+img {
+	width: 100%;
+	height: 100%;
+}
+
+section {
+	margin-bottom: 70px;
+}
+
+h2, 
+h3 {
+	text-transform: uppercase;
+}
+
+h3 {
+	border-bottom: 1px solid #000;
+	margin-bottom: 60px;
+	width: 300px;
+}
+
+h4 {
+	font-weight: normal;
+}
+
+hr {
+  border: 0;
+  border-top: 1px solid #000;
+}
+
+hr.line {
+	border: 0;
+	border-top: 7px solid #000;
+}
+
+nav {
+	background: rgba(17,15,15,0);
+	transition: all 0.5s;
+	-webkit-transition: background 1s;
+}
+
+nav.is-sticky {
+	background: rgba(17,15,15,1);
+	-webkit-box-shadow: 0px 3px 3px 0px rgba(0, 0, 0, 0.1);
+	box-shadow: 0px 3px 3px 0px rgba(0, 0, 0, 0.3);
+	position: absolute;
+	width: 100%;
+}
+
+nav.is-sticky .textLogo img {
+	display: block;
+}
+
+.nav .textLogo img {
+	max-width: 300px;
+	max-height: 28px;
+	width: 100%;
+	height: 100%;
+	float: left;
+	margin-top: 10px;
+	display: none;
+}
+
+.navbar .nav {
+	float: right;
+	padding-top: 20px;
+}
+
+.navbar .navLogo {
+	float: left;
+	padding-top: 0px;
+}
+
+.navbar .nav > li > a {
+	color: #fff;
+	font-size: 18px;
+	font-weight: 300;
+	text-shadow: none;
+	text-transform: uppercase;
+	padding-bottom: 20px;
+}
+
+.navbar .nav > li > a:hover,
+.navbar .nav > li > a:focus {
+	color: #fff;
+  outline: none;
+  -moz-outline-style: none;
+}
+
+.navbar .nav > li > a:hover,
+.navbar .nav > .active > a,
+.navbar .nav > .active > a:hover,
+.navbar .nav > .active > a:focus {
+  background: none;
+  box-shadow: none;
+  color: #FC363B;
+}
+
+.sticky-wrapper {
+	position: absolute;
+	width: 100%;
+}
+
+.sticky-wrapper.is-sticky {
+	top: 0 !important;
+}
+
+.navbar-inner {
+	background: transparent;
+	border: none;
+	padding: 0px;
+}
+
+.navbar .btn {
+	margin-top: 10px;
+}
+
+.navbar .btn-navbar {
+  color: #fff;
+  margin-right: 15px;
+  background-color: #0e0e0e;
+  *background-color: #040404;
+  background-image: -moz-linear-gradient(top, #151515, #040404);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#151515), to(#040404));
+  background-image: -webkit-linear-gradient(top, #151515, #040404);
+  background-image: -o-linear-gradient(top, #151515, #040404);
+  background-image: linear-gradient(to bottom, #151515, #040404);
+  background-repeat: repeat-x;
+  border-color: #fff;
+  border-color: rgba(255, 255, 255, 1);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff151515', endColorstr='#ff040404', GradientType=0);
+  filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+}
+
+.navbar .btn-navbar:hover {
+	color: #fff;
+	background: #FC363B;
+}
+
+.home {
+	background: url(../img/soul_of_new_orleans.png) center no-repeat fixed;
+	background-size: cover;
+	height: 700px;
+	text-align: center;
+}
+
+.home img.logo {
+	max-width: 326px;
+	max-height: 274px;
+	margin-top: 150px;
+	margin-bottom: -40px;
+	z-index: 2;
+}
+
+.home hr{
+	border: 0;
+	border-top: 1px solid #fff;
+}
+
+.home p {
+	color: #fff;
+	font-size: 39px;
+	font-weight: 300;
+	line-height: 50px;
+}
+
+.product img.blightLogo,
+.product .screenshot {
+	margin: 0 auto;
+	display: block;
+}
+
+.product img.blightLogo {
+	max-width: 428px;
+	max-height: 72px;
+}
+
+.product p {
+	font-size: 26px;
+	font-weight: 300;
+	line-height: 36px;
+	margin: 30px auto 60px;
+	text-align: center;
+}
+
+.product .button {
+	background-color: #FC363B;
+	color: #fff;
+	font-size: 24px;
+	font-weight: 700;
+	padding: 15px 50px;
+	text-transform: uppercase;
+}
+
+.product .button:hover {
+	background-color: #000;
+	color: #fff;
+	text-decoration: none;
+}
+
+.product .screenshot {
+	max-width: 747px;
+	max-height: 299px;
+}
+
+.team h2, 
+.team h4 {
+	text-align: center;
+}
+
+.team img {
+	max-width: 370px;
+	max-height: 255px;
+}
+
+.team hr.bottomLine {
+	margin-bottom: 0px;
+}
+
+.team .social {
+	margin: 0 auto;
+}
+
+.team .social li {
+	float: left;
+	border-right: 1px solid #000;
+	width: 122px;
+	padding: 10px 0px;
+}
+
+.team .social li:last-child {
+	border: none;
+}
+
+.team .social a {
+	display: block;
+	padding-left: 0px;
+}
+
+.team .social .mail,
+.team .social .twitter,
+.team .social .addy,
+.team .social .linkedin {
+	float: none;
+	margin: 0 auto;
+}
+
+.team p,
+.contact p {
+	font-size: 16px;
+	font-weight: 300;
+	line-height: 22px;
+}
+
+.contact p {
+	padding-bottom: 10px;
+}
+
+.contact li {
+	padding-bottom: 5px;
+}
+
+.social li {
+	height: 38px;
+	line-height: 38px;
+}
+
+.social a {
+	padding-left: 10px;
+	color: #000;
+	font-weight: bold;
+}
+
+.social a:hover {
+	color: #FC363B;
+	text-decoration: none;
+}
+
+.mail,
+.twitter,
+.addy,
+.linkedin {
+	background-image: url('../img/contact_sprite.png');
+	background-repeat: no-repeat;
+	background-size: 83px;
+  overflow: hidden;
+  width: 41.5px;
+  height: 38px;
+  float: left;
+}
+
+.mail {
+  background-position: 0 0;
+}
+
+.twitter {
+  background-position: 0 -38px;
+}
+
+.addy {
+  background-position: 0 -76px;
+}
+
+.linkedin {
+	background-position: 0 -114px;
+}
+
+.mail:hover {
+  background-position: -41.5px 0px;
+}
+
+.twitter:hover {
+  background-position: -41.5px -38px;
+}
+
+.addy:hover {
+  background-position: -41.5px -76px;
+}
+
+.linkedin:hover {
+  background-position: -41.5px -114px;
+}
+
+
+@media (max-width: 1120px) and (min-width: 980px) {
+	.team .social li {
+		width: 99px;
+	}
+
+	iframe {
+		width: 540px;
+	}
+}
+
+@media (max-width: 970px) {
+
+	.navbar-inner {
+		background: rgba(17,15,15,1);
+		width: 100%;
+		top: 0;
+		position: fixed;
+	}
+
+	.navbar .container {
+		padding: 0 0 10px 0;
+	}
+
+	.navbar .nav {
+		float: none;
+		text-align: center;
+		padding-top: 0px;
+	}
+
+	.navbar .nav > li > a {
+		font-size: 24px;
+	}
+
+  .nav-collapse .nav > li > a,
+  .nav-collapse .dropdown-menu a {
+    color: #999;
+  }
+  .nav-collapse .nav > li > a:hover,
+	.nav-collapse .nav > li > a:focus,
+  .nav-collapse .dropdown-menu a:hover,
+  .nav-collapse .dropdown-menu a:focus {
+    background-color: #222;
+  }
+
+  .nav .textLogo img,
+  .home img.logo {
+		width: 65%;
+		height: auto;
+  }
+
+  iframe {
+		width: 413px;
+	}
+}
+
+@media (max-width: 979px) and (min-width: 768px) {
+	.team .social li {
+	width: 70px;
+	}
+}
+
+@media (max-width: 767px) {
+
+	body {
+		padding-right: 0px;
+		padding-left: 0px;
+	}
+
+	section {
+		margin-bottom: 50px;
+	}
+
+	h3 {
+		margin-bottom: 30px;
+	}
+
+	.navbar-inner,
+	.home,
+	.product,
+	.team, 
+	.contact,
+	footer {
+		padding-right: 20px;
+		padding-left: 20px;
+	}
+
+  .home {
+		height: 530px;
+	}
+
+	.home img.logo {
+		margin-top: 100px;
+	}
+
+	.home p {
+		font-size: 32px;
+		line-height: 45px;
+	}
+
+	.product p {
+		font-size: 22px;
+		line-height: 32px;
+		margin: 20px auto 50px;
+	}
+
+	.team .bio {
+		margin-bottom: 100px;
+	}
+
+	.team .bio3 {
+		margin-bottom: 0px;
+	}
+
+	.team .social li {
+		width: 119px;
+	}
+
+	iframe {
+		width: 360px;
+		height: 200px;
+		margin-top: 16px;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
