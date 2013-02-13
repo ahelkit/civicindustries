@@ -372,6 +372,8 @@ nav.is-sticky .textLogo img {
 
 	.navbar .nav > li > a {
 		font-size: 24px;
+		padding: 22px 15px;
+		border-radius: none;
 	}
 
   .nav-collapse .nav > li > a,
@@ -432,7 +434,7 @@ nav.is-sticky .textLogo img {
 		padding-left: 20px;
 	}
 
-	.navbar .nav > li > a {
+	.navbar .nav.navLogo li a {
 		padding: 7px 0px 0px 0px;
 	}
 
