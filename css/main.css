@@ -6,6 +6,7 @@ body {
 	background-image: url(../img/lightpaperfibers.png);
 	background-size: 500px 300px;
 	font-family: 'Oswald', sans-serif;
+	letter-spacing: 1px;
 	padding-top: 0px;
 }
 
@@ -193,11 +194,18 @@ nav.is-sticky .textLogo img {
 	text-align: center;
 }
 
+.product img {
+	max-width: 27px;
+	max-height: 23px;
+	margin: -5px -11px 0px 10px;
+}
+
 .product .button {
 	background-color: #FC363B;
 	color: #fff;
 	font-size: 24px;
 	font-weight: 700;
+	letter-spacing: 2px;
 	padding: 15px 50px;
 	text-transform: uppercase;
 }
@@ -278,6 +286,7 @@ nav.is-sticky .textLogo img {
 .social a {
 	padding-left: 10px;
 	color: #000;
+	font-size: 16px;
 	font-weight: bold;
 }
 
@@ -292,9 +301,9 @@ nav.is-sticky .textLogo img {
 .linkedin {
 	background-image: url('../img/contact_sprite.png');
 	background-repeat: no-repeat;
-	background-size: 83px;
+	background-size: 82px;
   overflow: hidden;
-  width: 41.5px;
+  width: 41px;
   height: 38px;
   float: left;
 }
@@ -316,19 +325,19 @@ nav.is-sticky .textLogo img {
 }
 
 .mail:hover {
-  background-position: -41.5px 0px;
+  background-position: -41px 0px;
 }
 
 .twitter:hover {
-  background-position: -41.5px -38px;
+  background-position: -41px -38px;
 }
 
 .addy:hover {
-  background-position: -41.5px -76px;
+  background-position: -41px -76px;
 }
 
 .linkedin:hover {
-  background-position: -41.5px -114px;
+  background-position: -41px -114px;
 }
 
 
@@ -388,6 +397,11 @@ nav.is-sticky .textLogo img {
 }
 
 @media (max-width: 979px) and (min-width: 768px) {
+
+	h2 {
+		font-size: 30px;
+	}
+
 	.team .social li {
 	width: 70px;
 	}
@@ -418,6 +432,10 @@ nav.is-sticky .textLogo img {
 		padding-left: 20px;
 	}
 
+	.navbar .nav > li > a {
+		padding: 7px 0px 0px 0px;
+	}
+
   .home {
 		height: 530px;
 	}
@@ -446,7 +464,7 @@ nav.is-sticky .textLogo img {
 	}
 
 	.team .social li {
-		width: 119px;
+		width: 114px;
 	}
 
 	iframe {
